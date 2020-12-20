@@ -1,5 +1,6 @@
 .main{
     background-color: #141f1f;
+    /* background-color: #24272E; */
     color: #ff7366;
     /* color: peachpuff; */
     /* color: #ffa299; */
@@ -14,9 +15,15 @@
     margin-bottom: auto;
 }
 
+mark.peach {
+    color: peachpuff;
+    background-color: #141f1f;
+}
+
 a:link, a:visited, a:active{
     color: #ff7366;
     /* color: peachpuff; */
+    /* color: white; */
     text-decoration: none;
 }
 
@@ -30,6 +37,16 @@ a.contact:link, a.contact:visited, a.contact:active{
 }
 
 a.contact:hover{
+    color: white;
+}
+
+a.egg:link, a.egg:visited, a.egg:active{
+    color: #141f1f;
+    /* color: white; */
+    text-decoration: none;
+}
+
+a.egg:hover{
     color: white;
 }
 
