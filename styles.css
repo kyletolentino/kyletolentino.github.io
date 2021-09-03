@@ -1,13 +1,7 @@
-.main{
-    background-color: #141f1f;
-    /* background-color: #24272E; */
-    color: #ff7366;
-    /* color: peachpuff; */
-    /* color: #ffa299; */
-    /* color: #FA9A85; */
+.main { 
+    background-color: #080b0e;
+    color: peachpuff;
     font-size: 28px;
-    /* font-family: 'Arimo', sans-serif; */
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Inter', sans-serif;
     margin-left: 100px;
     margin-right: 100px;
@@ -16,33 +10,32 @@
 }
 
 mark.peach {
-    color: peachpuff;
-    background-color: #141f1f;
+    color: red;
+    background-color: violet;
 }
 
 a:link, a:visited, a:active{
-    color: #ff7366;
-    /* color: peachpuff; */
-    /* color: white; */
+    color: peachpuff;
     text-decoration: none;
 }
 
 a:hover{
-    color: white;
+    transition: 0.5s;
+    color: #ff2d1a;
 }
 
 a.contact:link, a.contact:visited, a.contact:active{
-    color: peachpuff;
+    color: #ff7366;
     text-decoration: none;
 }
 
 a.contact:hover{
-    color: white;
+    transition: 0.5s;
+    color: #ff2d1a;
 }
 
 a.egg:link, a.egg:visited, a.egg:active{
-    color: #141f1f;
-    /* color: white; */
+    color: #080b0e;
     text-decoration: none;
 }
 
