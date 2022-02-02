@@ -1,48 +1,63 @@
-.main { 
-    background-color: #080b0e;
-    color: peachpuff;
-    font-size: 28px;
+* {
+    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Inter', sans-serif;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: auto;
-    margin-bottom: auto;
 }
 
-mark.peach {
-    color: red;
-    background-color: violet;
+/* Setting fade transition and default settings */
+body {
+    color: #0D2049;
+    background-color: #EB8F73;
+    transition: background-color 1s ease, color 0.5s ease;
+}
+  
+/* panel styles */
+.panel {
+    /* min height incase content is higher than window height */
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    /* outline: 10px solid hotpink; */
+    /* turn above on to see the edge of panels */
 }
 
-a:link, a:visited, a:active{
-    color: peachpuff;
-    text-decoration: none;
+/* colours */
+.color-uiuc {
+    background-color: #121b21;
+    color: #ff552e;
+}
+.color-amazon {
+    background-color: #bdf3fe;
+    color: #28378C;
+}
+.color-ece391 {
+    background-color: #fcffc3;
+    color: #00684B;
+}
+.color-contact {
+    background-color: #ffd890;
+    color: #8D2112;
 }
 
-a:hover{
-    transition: 0.5s;
-    color: #ff2d1a;
+/* @TODO: add styling for a tag, contact class*/
+  
+  /* styling for demo, can ignore */
+body {
+    text-align: center;
+    font-size: 120%;
+    line-height: 1.618;
 }
-
-a.contact:link, a.contact:visited, a.contact:active{
-    color: #ff7366;
-    text-decoration: none;
+h1, h2 {
+    font-size: 3em;
+    letter-spacing: -0.05em;
+    line-height: 1.1;
+    padding: 5%;
 }
-
-a.contact:hover{
-    transition: 0.5s;
-    color: #ff2d1a;
+p {
+    max-width: 30em;
+    margin-bottom: 1.618em;
 }
-
-a.egg:link, a.egg:visited, a.egg:active{
-    color: #080b0e;
-    text-decoration: none;
-}
-
-a.egg:hover{
-    color: white;
-}
-
-.topnav-right{
-    float: right;
+a {
+    color: #4332CF;
 }

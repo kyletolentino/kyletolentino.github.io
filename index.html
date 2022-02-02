@@ -4,34 +4,40 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> -->
 <title>Is This Thing On?</title>
 </head>
 
-<body class="main">
-    <h2>Kyle Tolentino</h2>
-
-    <div>
-        <p>
-            I'm currently studying Computer Engineering at the University of Illinois at Urbana-Champaign (cornfields yes). <br>
-            I enjoy pressing buttons that make my computer go brrrr. Other interests include distributed systems and <a href="lists.html">good food</a>.
-        </p>
-
-        <p>
-            I interned at <a class="contact" href="https://www.amazon.com" target="_blank">Amazon</a> last summer, where I improved routing and assignment services for <a class="contact" href="https://flex.amazon.com/" target="_blank">Amazon Flex</a> (think Uber-like model for delivering groceries).
-            I'm also an <a class="contact" href="https://courses.grainger.illinois.edu/ece391/fa2021/" target="_blank">undergraduate TA for ECE 391</a>.
-        </p>
-
-        <p>
-            Checkout my <a class="contact" href="https://github.com/kyletolentino" target="_blank">GitHub</a>
-             and <a class="contact" href="https://www.linkedin.com/in/kyletolentino/" target="_blank">LinkedIn</a>,
-              and feel free to contact me by <a class="contact" href="mailto: kyltol@gmail.com">email</a>.
-        </p>
-
-        <p class="egg" style="margin-top: 100px; margin-left: 100px;">
-            <a class="egg" href="easter.html">?</a>
-        </p>
+<body>
+    <div class="panel">
+        <div>
+            <h2>Hi, I'm Kyle!</h2>
+            <img src="media/picture.jpg" 
+            width="664.06" 
+            height="500" />
+        </div>
     </div>
 
+    <div class="panel" data-color="uiuc">
+      <h2>I'm a recent graduate from the University of Illinois at Urbana-Champaign (cornfields yes) with a B.S. in Computer Engineering</h2>
+    </div>
+
+    <div class="panel" data-color="amazon">
+      <h2>I interned at <a class="contact" href="https://www.amazon.com" target="_blank">Amazon</a> in Summer 2021, where I improved routing and assignment services for <a class="contact" href="https://flex.amazon.com/" target="_blank">Amazon Flex</a> (think Uber-like model for delivering groceries)</h2>
+    </div>
+    
+    <div class="panel" data-color="ece391">
+      <h2>I was a former <a class="contact" href="https://courses.grainger.illinois.edu/ece391/fa2021/" target="_blank">undergraduate TA for ECE 391</a>, where I assisted 200+ students and improved the course's queue system for office hours (also met a lot of cool people there)</h2>
+    </div>
+
+    <div class="panel" data-color="contact">
+      <h2>Checkout my <a class="contact" href="https://github.com/kyletolentino" target="_blank">GitHub</a>
+        and <a class="contact" href="https://www.linkedin.com/in/kyletolentino/" target="_blank">LinkedIn</a>,
+         and feel free to contact me by <a class="contact" href="mailto: kyltol@gmail.com">email</a> - thanks for stopping by!</h2>
+    </div>
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js"></script>
 
 </html>
