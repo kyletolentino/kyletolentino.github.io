@@ -28,16 +28,28 @@ body {
     color: #ff552e;
 }
 .color-amazon {
-    background-color: #bdf3fe;
-    color: #28378C;
+    /* background-color: #bdf3fe;
+    color: #28378C; */
+    background-color: #28378C;
+    color: #bdf3fe;
 }
 .color-ece391 {
-    background-color: #fcffc3;
-    color: #00684B;
+    background-color: #DDA0DD;
+    color: #314020;
 }
 .color-contact {
-    background-color: #ffd890;
-    color: #8D2112;
+    background-color: #78cfb6;
+    color: #401C17;
+}
+
+a {
+    color: #FFFEB0;
+    text-decoration: none;
+}
+
+a:hover{
+    transition: 0.5s;
+    color: #fffee7;
 }
 
 /* @TODO: add styling for a tag, contact class*/
@@ -57,7 +69,4 @@ h1, h2 {
 p {
     max-width: 30em;
     margin-bottom: 1.618em;
-}
-a {
-    color: #4332CF;
 }
