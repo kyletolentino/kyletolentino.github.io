@@ -9,6 +9,10 @@ body {
     background-color: #EB8F73;
     transition: background-color 1s ease, color 0.5s ease;
 }
+
+.bio {
+    margin-bottom: 100px;
+}
   
 /* panel styles */
 .panel {
@@ -43,7 +47,7 @@ body {
 }
 
 a {
-    color: #FFFEB0;
+    color: #fffd64;
     text-decoration: none;
 }
 
