@@ -9,6 +9,19 @@ body {
     padding: auto;
 }
 
+.link {
+    color: #f7f9fb;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.link:visited {
+    color: #f7f9fb;
+}
+
+.link:hover {
+    color: purple;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
